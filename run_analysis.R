@@ -1,4 +1,5 @@
-#R code to produce tidy data for Assignment
+#R code to produce tidy data for Assignment for the 
+#Getting and Cleaning Data course
 library(dplyr)
 library(plyr)
 library(data.table)
