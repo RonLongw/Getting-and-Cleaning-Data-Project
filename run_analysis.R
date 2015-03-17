@@ -408,7 +408,7 @@ total_acc <- merge(total_acc, total_acc_x_gp, by="subject")
 total_acc <- merge(total_acc, total_acc_y_gp, by="subject")
 total_acc <- merge(total_acc, total_acc_z_gp, by="subject")
 
-write.table(total_acc, "final_results.txt", sep="\t", quote = F, row.name = F, col.name = F)
+write.table(total_acc, "final_results.txt", sep="\t", quote = F, row.name = F, col.name = T)
 
 rm(body_acc_x)
 rm(body_acc_x_gp)
